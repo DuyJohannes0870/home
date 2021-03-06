@@ -4,12 +4,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './pages/footer/footer.component';
+import { PromotionComponent } from './pages/promotion/promotion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
+    PromotionComponent,
   ],
   imports: [
     BrowserModule,
